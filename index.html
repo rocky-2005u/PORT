@@ -5,179 +5,720 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Capture — personal photographer portfolio." />
   <title>capture® — Personal Photographer</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+
+  <!-- ================= NAVIGATION ================= -->
+
   <header class="nav-wrap">
     <nav class="nav">
-      <a class="logo" href="#home">capture<sup>®</sup></a>
+
+      <a class="logo" href="#home">
+        capture<sup>®</sup>
+      </a>
+
       <div class="nav-links">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#portfolio">Portfolio</a>
       </div>
-      <a class="contact-pill" href="#contact">Contact me</a>
+
+      <a class="contact-pill" href="#contact">
+        Contact me
+      </a>
+
     </nav>
   </header>
 
+
   <main>
+
+    <!-- ================= HERO ================= -->
+
     <section id="home" class="hero">
-      <div class="hero-image"></div>
+
+      <!-- HERO VIDEO -->
+      <video
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+      >
+        <source src="hero-loop.mp4" type="video/mp4">
+      </video>
+
+      <!-- VIDEO OVERLAY -->
       <div class="hero-overlay"></div>
+
+
+      <!-- HERO MAIN TEXT -->
+
       <div class="hero-copy">
-        <div class="eyebrow">PERSONAL PHOTOGRAPHER</div>
-        <h1>capture<sup>®</sup></h1>
-        <p>through my lens</p>
+
+        <div class="eyebrow">
+          PERSONAL PHOTOGRAPHER
+        </div>
+
+        <h1>
+          capture<sup>®</sup>
+        </h1>
+
+        <p>
+          through my lens
+        </p>
+
       </div>
+
+
+      <!-- HERO SIDE TEXT -->
+
       <div class="hero-note">
+
         <span class="plus">+</span>
-        <strong>Professional creative<br>photography</strong>
-        <small>Moments made visible.</small>
+
+        <strong>
+          Professional creative<br>
+          photography
+        </strong>
+
+        <small>
+          Moments made visible.
+        </small>
+
       </div>
+
+
+      <!-- HERO BOTTOM -->
+
       <div class="hero-bottom">
-        <p>— Capture real emotions and fleeting<br>moments worth keeping.</p>
-        <a href="#portfolio">Let's chat <span>↗</span></a>
+
+        <p>
+          — Capture real emotions and fleeting<br>
+          moments worth keeping.
+        </p>
+
+        <a href="#portfolio">
+          Let's chat <span>↗</span>
+        </a>
+
       </div>
+
     </section>
+
+
+    <!-- ================= ABOUT ================= -->
 
     <section id="about" class="statement section">
-      <div class="section-label">◉ About me</div>
-      <div class="statement-grid">
-        <div></div>
-        <h2>“I don’t just take photos <em>capture raw emotions,</em> <em>subtle moments,</em> and untold stories that make life <em>beautiful.</em>”</h2>
+
+      <div class="section-label">
+        ◉ About me
       </div>
+
+
+      <div class="statement-grid">
+
+        <div></div>
+
+        <h2>
+          “I don’t just take photos
+          <em>capture raw emotions,</em>
+          <em>subtle moments,</em>
+          and untold stories that make life
+          <em>beautiful.</em>”
+        </h2>
+
+      </div>
+
 
       <div class="about-grid">
+
         <div class="about-photo photo-card">
-          <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=85" alt="Photographer with camera">
-          <span class="play">▶</span>
+
+          <img
+            src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=85"
+            alt="Photographer with camera"
+          >
+
+          <span class="play">
+            ▶
+          </span>
+
         </div>
+
+
         <div class="about-copy">
-          <p>I capture raw emotions, subtle moments, and untold stories that make life beautiful. Every image I create is more than just a picture; it’s a reflection of genuine feelings, fleeting expressions, and connections that deserve to be preserved.</p>
-          <a class="underlined" href="#contact">Let's chat ↗</a>
+
+          <p>
+            I capture raw emotions, subtle moments, and untold stories
+            that make life beautiful. Every image I create is more than
+            just a picture; it’s a reflection of genuine feelings,
+            fleeting expressions, and connections that deserve to be preserved.
+          </p>
+
+          <a class="underlined" href="#contact">
+            Let's chat ↗
+          </a>
+
         </div>
+
       </div>
+
+
+      <!-- CLIENTS -->
 
       <div class="client-strip">
-        <span>✦ ZenZap</span><span>sparkle</span><span>inovio</span><span>Cartoon</span><span>Lum◉Lab</span>
+
+        <span>✦ ZenZap</span>
+        <span>sparkle</span>
+        <span>inovio</span>
+        <span>Cartoon</span>
+        <span>Lum◉Lab</span>
+
       </div>
+
+
+      <!-- PROJECTS -->
 
       <div class="projects-heading">
-        <p>More than 1,000 projects complete</p>
-        <h3>– <em>clients keep coming back</em></h3>
-        <a href="#portfolio">View Work</a>
+
+        <p>
+          More than 1,000 projects complete
+        </p>
+
+        <h3>
+          – <em>clients keep coming back</em>
+        </h3>
+
+        <a href="#portfolio">
+          View Work
+        </a>
+
       </div>
+
 
       <div class="mini-gallery">
-        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85" alt="Mountain photography">
-        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=85" alt="Portrait photography">
+
+        <img
+          src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85"
+          alt="Mountain photography"
+        >
+
+        <img
+          src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=85"
+          alt="Portrait photography"
+        >
+
       </div>
+
     </section>
+
+
+
+    <!-- ================= PORTFOLIO ================= -->
 
     <section id="portfolio" class="portfolio section">
+
       <div class="portfolio-top">
+
         <div class="portfolio-intro">
-          <span class="section-label light">Selected work</span>
-          <h2>Stories, <em>frames</em><br>&amp; feeling.</h2>
+
+          <span class="section-label light">
+            Selected work
+          </span>
+
+          <h2>
+            Stories,
+            <em>frames</em><br>
+            &amp; feeling.
+          </h2>
+
         </div>
+
+
         <div class="portfolio-collage">
-          <div class="work-card tall"><img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=700&q=85" alt="Creative portrait"></div>
-          <div class="work-card"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=700&q=85" alt="Portrait"></div>
-          <div class="work-card"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=85" alt="Portrait"></div>
+
+          <div class="work-card tall">
+
+            <img
+              src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=700&q=85"
+              alt="Creative portrait"
+            >
+
+          </div>
+
+
+          <div class="work-card">
+
+            <img
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=700&q=85"
+              alt="Portrait"
+            >
+
+          </div>
+
+
+          <div class="work-card">
+
+            <img
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=85"
+              alt="Portrait"
+            >
+
+          </div>
+
         </div>
+
       </div>
+
+
+      <!-- SERVICES -->
 
       <div class="services">
+
         <div class="service-feature">
-          <div class="tiny-plus">+</div>
-          <h3>Professional<br>Headshots</h3>
-          <p>Clean, confident portraits for your personal brand and professional identity.</p>
+
+          <div class="tiny-plus">
+            +
+          </div>
+
+          <h3>
+            Professional<br>
+            Headshots
+          </h3>
+
+          <p>
+            Clean, confident portraits for your personal brand
+            and professional identity.
+          </p>
+
         </div>
+
+
         <div class="service-list">
-          <a href="#contact"><span>01</span> Events <b>↗</b></a>
-          <a href="#contact"><span>02</span> Weddings <b>↗</b></a>
-          <a href="#contact"><span>03</span> Family Sessions <b>↗</b></a>
-          <a href="#contact"><span>04</span> Lifestyle Photography <b>↗</b></a>
+
+          <a href="#contact">
+            <span>01</span>
+            Events
+            <b>↗</b>
+          </a>
+
+          <a href="#contact">
+            <span>02</span>
+            Weddings
+            <b>↗</b>
+          </a>
+
+          <a href="#contact">
+            <span>03</span>
+            Family Sessions
+            <b>↗</b>
+          </a>
+
+          <a href="#contact">
+            <span>04</span>
+            Lifestyle Photography
+            <b>↗</b>
+          </a>
+
         </div>
+
       </div>
+
     </section>
+
+
+
+    <!-- ================= WHY CHOOSE ME ================= -->
 
     <section class="why section">
+
       <div class="why-heading">
-        <span class="section-label">Why choose me as your —</span>
-        <h2>Personal <em>Photographer</em></h2>
+
+        <span class="section-label">
+          Why choose me as your —
+        </span>
+
+        <h2>
+          Personal
+          <em>Photographer</em>
+        </h2>
+
       </div>
+
+
       <div class="why-grid">
-        <div class="why-photo"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85" alt="Fashion portrait"></div>
-        <div class="why-mosaic">
-          <div><img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=600&q=85" alt=""></div>
-          <div><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=85" alt=""></div>
-          <div class="stat"><strong>30%</strong><span>more client<br>connections</span></div>
-          <div class="stat"><strong>100+</strong><span>creative<br>projects</span></div>
-          <div><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=85" alt=""></div>
-          <div class="stat dark"><strong>ESTD</strong><span>visual stories<br>since 2018</span></div>
+
+        <div class="why-photo">
+
+          <img
+            src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85"
+            alt="Fashion portrait"
+          >
+
         </div>
+
+
+        <div class="why-mosaic">
+
+          <div>
+
+            <img
+              src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=600&q=85"
+              alt=""
+            >
+
+          </div>
+
+
+          <div>
+
+            <img
+              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=85"
+              alt=""
+            >
+
+          </div>
+
+
+          <div class="stat">
+
+            <strong>
+              30%
+            </strong>
+
+            <span>
+              more client<br>
+              connections
+            </span>
+
+          </div>
+
+
+          <div class="stat">
+
+            <strong>
+              100+
+            </strong>
+
+            <span>
+              creative<br>
+              projects
+            </span>
+
+          </div>
+
+
+          <div>
+
+            <img
+              src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=85"
+              alt=""
+            >
+
+          </div>
+
+
+          <div class="stat dark">
+
+            <strong>
+              ESTD
+            </strong>
+
+            <span>
+              visual stories<br>
+              since 2018
+            </span>
+
+          </div>
+
+        </div>
+
       </div>
+
     </section>
+
+
+
+    <!-- ================= FAQ ================= -->
 
     <section class="faq section">
+
       <div class="faq-head">
-        <span class="section-label">Frequently asked</span>
-        <h2>question</h2>
+
+        <span class="section-label">
+          Frequently asked
+        </span>
+
+        <h2>
+          question
+        </h2>
+
       </div>
+
+
       <div class="faq-list">
-        <details open><summary>How do I book a photo session?<span>+</span></summary><p>Send me a message through the contact section. We’ll choose a date, location and package together.</p></details>
-        <details><summary>What types of photography do you specialize in?<span>+</span></summary><p>Portraits, events, weddings, lifestyle sessions, headshots and creative personal projects.</p></details>
-        <details><summary>How long does it take to receive photos?<span>+</span></summary><p>Most edited galleries are delivered within 1–2 weeks, depending on the project.</p></details>
-        <details><summary>Do you offer retouching?<span>+</span></summary><p>Yes. Every selected image receives professional colour and exposure treatment, with detailed retouching where appropriate.</p></details>
-        <details><summary>What happens if the weather is bad?<span>+</span></summary><p>We can reschedule or move the session indoors whenever weather affects the final result.</p></details>
+
+        <details open>
+
+          <summary>
+            How do I book a photo session?
+            <span>+</span>
+          </summary>
+
+          <p>
+            Send me a message through the contact section.
+            We’ll choose a date, location and package together.
+          </p>
+
+        </details>
+
+
+        <details>
+
+          <summary>
+            What types of photography do you specialize in?
+            <span>+</span>
+          </summary>
+
+          <p>
+            Portraits, events, weddings, lifestyle sessions,
+            headshots and creative personal projects.
+          </p>
+
+        </details>
+
+
+        <details>
+
+          <summary>
+            How long does it take to receive photos?
+            <span>+</span>
+          </summary>
+
+          <p>
+            Most edited galleries are delivered within 1–2 weeks,
+            depending on the project.
+          </p>
+
+        </details>
+
+
+        <details>
+
+          <summary>
+            Do you offer retouching?
+            <span>+</span>
+          </summary>
+
+          <p>
+            Yes. Every selected image receives professional colour
+            and exposure treatment, with detailed retouching where appropriate.
+          </p>
+
+        </details>
+
+
+        <details>
+
+          <summary>
+            What happens if the weather is bad?
+            <span>+</span>
+          </summary>
+
+          <p>
+            We can reschedule or move the session indoors whenever
+            weather affects the final result.
+          </p>
+
+        </details>
+
       </div>
+
     </section>
+
+
+
+    <!-- ================= TESTIMONIAL ================= -->
 
     <section class="testimonial section">
-      <span class="section-label">◉ Testimonial</span>
+
+      <span class="section-label">
+        ◉ Testimonial
+      </span>
+
+
       <div class="quote-grid">
+
         <div>
-          <div class="stars">★★★★★</div>
-          <p class="quote">“He understood exactly what we wanted and somehow made every photograph feel natural, emotional and timeless.”</p>
-          <p class="person">Doyan Rodriguez</p>
-          <small>Client · Lifestyle Session</small>
+
+          <div class="stars">
+            ★★★★★
+          </div>
+
+          <p class="quote">
+            “He understood exactly what we wanted and somehow made
+            every photograph feel natural, emotional and timeless.”
+          </p>
+
+          <p class="person">
+            Doyan Rodriguez
+          </p>
+
+          <small>
+            Client · Lifestyle Session
+          </small>
+
         </div>
+
+
         <div class="testimonial-photo">
-          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85" alt="Couple photography">
+
+          <img
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85"
+            alt="Couple photography"
+          >
+
         </div>
+
       </div>
+
     </section>
+
+
+
+    <!-- ================= TRUTH ================= -->
 
     <section class="truth">
+
       <div class="truth-image">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85" alt="Creative photography">
+
+        <img
+          src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85"
+          alt="Creative photography"
+        >
+
       </div>
+
+
       <div class="truth-text">
-        <p>I don’t shoot <em>images</em> — I shoot <em>truth.</em></p>
+
+        <p>
+          I don’t shoot
+          <em>images</em>
+          — I shoot
+          <em>truth.</em>
+        </p>
+
       </div>
+
     </section>
 
+
+
+    <!-- ================= FOOTER ================= -->
+
     <footer id="contact" class="footer">
+
       <div class="footer-top">
+
         <div>
-          <span class="section-label light">Let’s capture your</span>
-          <h2>best <em>moment</em></h2>
+
+          <span class="section-label light">
+            Let’s capture your
+          </span>
+
+          <h2>
+            best
+            <em>moment</em>
+          </h2>
+
         </div>
-        <a class="big-arrow" href="mailto:hello@example.com">↗</a>
+
+
+        <a
+          class="big-arrow"
+          href="mailto:hello@example.com"
+        >
+          ↗
+        </a>
+
       </div>
+
+
       <div class="footer-grid">
-        <div><small>EMAIL</small><a href="mailto:hello@example.com">hello@example.com</a></div>
-        <div><small>PHONE</small><a href="tel:+910000000000">+91 00000 00000</a></div>
-        <div><small>SOCIAL</small><a href="#">Instagram</a><a href="#">Behance</a><a href="#">Pinterest</a></div>
+
+        <div>
+
+          <small>
+            EMAIL
+          </small>
+
+          <a href="mailto:hello@example.com">
+            hello@example.com
+          </a>
+
+        </div>
+
+
+        <div>
+
+          <small>
+            PHONE
+          </small>
+
+          <a href="tel:+910000000000">
+            +91 00000 00000
+          </a>
+
+        </div>
+
+
+        <div>
+
+          <small>
+            SOCIAL
+          </small>
+
+          <a href="#">
+            Instagram
+          </a>
+
+          <a href="#">
+            Behance
+          </a>
+
+          <a href="#">
+            Pinterest
+          </a>
+
+        </div>
+
       </div>
-      <div class="footer-brand">capture<sup>®</sup></div>
+
+
+      <div class="footer-brand">
+        capture<sup>®</sup>
+      </div>
+
     </footer>
+
   </main>
 
+
   <script src="script.js"></script>
+
 </body>
 </html>
